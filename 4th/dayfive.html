@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<HEAD>
+<meta charset="utf-8">
+<title>4th Video Relay Taansan</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
+<script src="../js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="../js/jquery.word-break-keep-all.min.js" type="text/javascript" ></script>
+<link rel="stylesheet" type="text/css" href="../css/flexslider.css">
+<script>
+    $(document).ready(function() {
+
+        // Dock the footer to the bottom of the page, but scroll up to reveal more
+        // content if the page is scrolled far enough.
+
+        $('.footer').scrollToFixed( {
+            bottom: 0,
+            limit: $('.footer').offset().top
+        });
+        $('#summary').scrollToFixed({
+        marginTop: 200,
+        zIndex: 999,
+        preFixed: function() { $(this).find('.title').css('color', 'blue'); },
+        preAbsolute: function() { $(this).find('.title').css('color', 'red'); },
+        postFixed: function() { $(this).find('.title').css('color', ''); },
+        postAbsolute: function() { $(this).find('.title').css('color', ''); }
+    	});
+    });
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.about').wordBreakKeepAll();
+	$('.about').wordBreakKeepAll({useCSSonIE: false});
+});
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    // Primary Controls
+	controlNav: false             //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+  });
+});
+</script>
+</HEAD>
+<body>	
+<div class="wrapper">
+		<article>
+			<img src="img/4thTaansanPoster.jpg" alt="제4회 비디오릴레이 탄산 포스터" class="poster" />
+			<img src="img/4thTaansanPoster.jpg" alt="제4회 비디오릴레이 탄산 포스터" class="poster-mobile" />
+			<ul>
+				<li class="date">2015. 8. 26. 17:00</li>
+				<li class="date"><div id="circle" class="cake-gallery"></div>케이크 갤러리</li>
+				<li class="video"><iframe src="https://player.vimeo.com/video/136875964" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>This video features two songs. one is "Nobody Got It Like We Got It (Bonus)"</p><p>by CM THA SILENT PARTNER, used under BY NC SA/ shortened from original.</p><p>the other is "Fuck Off" by Steve Combs, used under BY/ also shortened from original.</p></li>
+				<li class="artist-name">김혜원 Hyewon Kim</li>
+					<ul class="statement">
+						<li>"내 소개를 해보려는 지금도 창 밖에서 일정한 간격으로 들리는 신호음에 집중한다. <br />배의 고동과 닮은 그 소리는 어떤 모양새로 어디서부터 들려오는 것인지, <br />나는 그 소리와 그 소리를 내는 누군가와 만날 수 있는 것인지, <br />같은 시간, 멀지 않은 그 현장으로 가는 방법을 누가 말했듯 청순하게 접근한다."</li>
+					</ul>
+					<ul class="website">
+						<li><a href="http://hyewon419.wixsite.com/gimhyewon" alt="김혜원 웹사이트" target="blank">website -&#62;</a></li>
+					</ul>
+					<ul class="synopsis">
+						<li class="caption">상영 목록</li>
+					</ul>
+					<ul class="synopsis">	
+						<li class="caption">&#60;여고생 A high school girl&#62;, 6'30'', 2006</li>
+						<li>교복을 입음으로써 의심없이 '여고생'이 된 나와, 배부른 형태, 즉 임신으로 추측되는 상징적 형태의 충돌을 기록한 작업이다. </li>
+					</ul>
+					<ul class="synopsis">	
+						<li class="caption">&#60;선풍기 두 대 Two Fans&#62;, 4'19'', 2007</li>
+						<li>사물과 사물 사이에서 느껴지는 상태를 시각적으로 드러낸 결과물.</li>
+					</ul>	
+					<ul class="synopsis">	
+						<li class="caption">&#60;별 Star&#62;, 3', 2009</li>
+						<li>별모양에 가까운 (불분명한) 그림자, 유리창 안 희미하게 보이는 아이들.</li>
+					</ul>	
+					<ul class="synopsis">	
+						<li class="caption">&#60;1분 44초 1minute 44seconds&#62;, 2'48'', 2009</li>
+						<li>번지점프를 바라본다. </li>
+					</ul>	
+					<ul class="synopsis">	
+						<li class="caption">&#60;누구에게나 18번은 있다 A song of one’s own&#62;, 16', 2010</li>
+						<li>누구에게나 있는 18번 곡은 노래를 부르기도 전에 들린다. 반면 너무나 익숙해 듣고 있어도 들리지 않거나 보고 있어도 눈에 띄지 않는 소리와 풍경을 한강이라는 장소에서 기록한 영상들의 배열이다. </li>
+					</ul>	
+					<ul class="synopsis">	
+						<li class="caption">&#60;집 Home&#62;, 5'58'', 2015</li>
+						<li>그가 훔쳐 달아난 난은 그냥 풀이었다. </li>
+					</ul>	
+					<ul class="synopsis last">
+						<li class="caption">&#60;설거지 Dishwashing&#62;, 6'30'', 2015</li>
+						<li>목적이나 결과를 배제한 체 설거지가 주는 감정에 온전히 집중한다. </li>
+					</ul>
+			</ul>	
+			<ul class="slider-wrapper">
+					<div class="flexslider">
+					  	<ul class="slides">
+						    <li>
+						      <img src="img/5/1.png" />
+						    </li>
+						    <li>
+						      <img src="img/5/2.png" />
+						    </li>
+						    <li>
+						      <img src="img/5/3.png" />
+						    </li>
+						    <li>
+						      <img src="img/5/4.png" />
+						    </li>
+						    <li>
+						      <img src="img/5/5.png" />
+						    </li>
+						</ul>
+					</div>
+					</ul>
+			<ul>
+				<li class="date">20:00</li>
+				<li class="date"><div id="circle" class="cake-gallery"></div>케이크 갤러리</li>
+				<li class="artist-name">fldjf studio x qhak</li>
+					<ul class="statement">
+						<li>박보마는 2014년 부터 semi virtual studio &#38; set 컨셉의 fldjf studio(리얼 스튜디오)를 운영하는 동시에,<br />qhak이라는 예명으로 자가 소속되어 활동하는 반사체이자 댄서이다. <br />‘스튜디오’는 회사의 언어, 시간, 하늘 등을 광고(재현) 한다. <br />스튜디오는 ‘빛’을 어떻게 기록할 것인지 고민하며 그것을 위해 세상의 형식들을 가상화 한다.</li>
+					</ul>
+					<ul class="website">
+						<li><a href="https://www.instagram.com/fldjfstudio/" alt="fldjf studio instagram" target="blank">fldjf studio instagram -&#62;</a></li>
+					</ul>
+					<ul class="synopsis">
+						<li class="caption">상영 목록</li>
+					</ul>
+					<ul class="synopsis">	
+						<!-- <li class="caption"><_fldjf 스튜디오 소개 및 Villa A.의 웹물질시간>, 약 45분, 2015</li> -->
+						<li class="caption">Opening</li>
+						<li class="caption">-&#60;fldjf studio decorations ad&#62;, 15'3'', 2015</li>    
+						<li class="caption">어떤 갤러리 전시장 내부 벽과 장식 선반1,2,3 을 통한 스튜디오 광고</li>
+						<li class="caption">-&#60;Our First Wedding Event&#62;, 사진슬라이드, 2010</li> 
+					</ul>
+					<ul class="synopsis">	
+						<li class="caption">Villa Aphrodite </li>
+						<li class="caption">-The Villa  우리들의 거실 </li>
+						<li class="caption">-Room Our Kiss </li>
+						<li class="caption">-Room 지중해</li>
+						<li class="caption">-Room CA Sky</li>
+					</ul>	
+					<ul class="synopsis last">
+						<li class="caption">Closing</li>
+						<li class="caption">-&#60;Star Light Cover-Minutes&#62;(파랑, 하늘, 연두, 노랑, 주황, 빨강, 핑크 이상), 2'44'', 2015</li>
+					</ul>	
+			</ul>	
+			<ul class="slider-wrapper">
+						<div class="flexslider">
+						  <ul class="slides">
+						    <li>
+						      <img src="img/5/6.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/5/7.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/5/8.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/5/9.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/5/10.jpg" />
+						    </li>
+						  </ul>
+						</div>
+					</ul>
+			<ul>
+				<li id="right">
+                    <ul id="summary">
+                        <li class="contents"><a href="4th_index.html" alt="home">Summary</a></li>
+                        <li class="contents"><a href="dayone.html" alt="2015년8월12일">2015. 08. 12</a></li>
+                        <li class="contents"><a href="daytwo.html" alt="2015년8월14일">2015. 08. 14</a></li>
+                        <li class="contents"><a href="daythree.html" alt="2015년8월19일">2015. 08. 19</a></li>
+                        <li class="contents"><a href="dayfour.html" alt="2015년8월21일">2015. 08. 21</a></li>
+                        <li class="contents"><a href="dayfive.html" alt="2015년8월26일">2015. 08. 26</a></li>
+                        <li class="contents"><a href="daysix.html" alt="2015년8월28일">2015. 08. 28</a></li>              
+                    </ul>
+            	</li>
+            </ul>
+			<ul>
+				<li id="right-mobile">
+                    <ul id="summary-mobile">
+                        <li class="contents"><a href="4th_index.html" alt="home">Summary</a></li>
+                        <li class="contents"><a href="dayone.html" alt="2015년8월12일">2015. 08. 12</a></li>
+                        <li class="contents"><a href="daytwo.html" alt="2015년8월14일">2015. 08. 14</a></li>
+                        <li class="contents"><a href="daythree.html" alt="2015년8월19일">2015. 08. 19</a></li>
+                        <li class="contents"><a href="dayfour.html" alt="2015년8월21일">2015. 08. 21</a></li>
+                        <li class="contents"><a href="dayfive.html" alt="2015년8월26일">2015. 08. 26</a></li>
+                        <li class="contents"><a href="daysix.html" alt="2015년8월28일">2015. 08. 28</a></li>                 
+                    </ul>
+            	</li>
+            </ul>
+			<ul>
+				<li class="footer">
+            		<img src="img/logos/logo_bk.png" alt="비디오릴레이 탄산 로고" style="width:120px; margin:0;" class="logo" />
+        		</li>
+		        <li class="footer-content">
+		            <div class="about">
+						<p>about</p>
+		                <p>비디오 작업을 가진 젊은 작가들에겐 한가지 공통점이 있다. 파일은 가벼운데 어디서 상영할 곳이 마땅치 않다는 것이다. 영화제처럼 다양한 기회를 준다면 얼마나 좋을까? 공모전을 들여다보면 영상 작업을 5분 이내로 요약하라는 설명이 쓰여있고, 전시를 한다해도 제대로 된 장비 한번 만나기도 어렵다. 몇몇 미디어아트 행사와 하이브리드한 작가가 있지만, 영상 작업의 배급과 유통은 일정 부분 작가에게 넘어와 있는지도 모른다.</p>
+
+						<p>&#60;비디오 릴레이 탄산 VIDEO RELAY TAANSAN&#62;은 이러한 현실인식에서 2012년 8월 시작했다. 제목이 명시하듯 이 행사는 일회성 스크리닝이 아니다. 작가가 작가를, 비디오가 비디오를 물고 이어진다. 1회의 작가가 2회의 상영작가를 소개해주는 방식이다. 2015년 제4회 비디오 릴레이 탄산이 열린다.</p>
+
+						<p>Video Relay Taansan is a video screening program established by young artists in 2012. It is devised as a channel to promote exchange and mutual support among young artists themselves. For each Video Relay Taansan those artists who participated previously select the participants for the following years and introduce their works.</p> 
+
+						<p>“There is a common denominator among those young artists who make video works: their files are light-weighted, but there are not many places where they can be shown. How great would it be if there are as many and as diverse channels to show our video works as in the case of films, which are shown in many domestic film festivals? Many different competitions require the submission of the five or less minute version of one’s work. When fortunately selected for a group show, one needs to compromise his or her work in terms of light or sound so that his or her work does not disturb other works exhibited nearby. After all, it may not be untrue that the distribution and circulation of video works are to some extent the responsibilities of young artists themselves.”</p>
+		            </div>
+		            <div class="archive-nav">
+						<p>Archive</p>
+						<ul id="archive">
+	                        <li class="contents"><a href="../index.html" alt="5th video relay taansan">5th - 2016</a></li>
+	                        <li class="contents"><a href="4th_index.html" alt="4th video relay taansan">4th - 2015</a></li>
+	                        <li class="contents"><a href="../3rd/3rd_index.html" alt="3rd video relay taansan">3rd - 2014</a></li>
+	                        <li class="contents"><a href="../2nd/2nd_index.html" alt="2nd video relay taansan">2nd - 2013</a></li>
+	                        <li class="contents"><a href="../1st/1st_index.html" alt="1st video relay taansan">1st - 2012</a></li>
+	                    </ul>
+	                    <ul id="archive-mobile">
+	                        <li class="contents"><a href="../index.html" alt="5th video relay taansan">5th - 2016</a></li>
+	                        <li class="contents"><a href="4th_index.html" alt="4th video relay taansan">4th - 2015</a></li>
+	                        <li class="contents"><a href="../3rd/3rd_index.html" alt="3rd video relay taansan">3rd - 2014</a></li>
+	                        <li class="contents"><a href="../2nd/2nd_index.html" alt="2nd video relay taansan">2nd - 2013</a></li>
+	                        <li class="contents"><a href="../1st/1st_index.html" alt="1st video relay taansan">1st - 2012</a></li>
+	                    </ul>
+		            </div>
+		        </li>
+        	</ul>
+		</article>
+</div>
+
+</body>

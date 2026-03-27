@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<HEAD>
+<meta charset="utf-8">
+<title>Day Three - 3rd Video Relay Taansan</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
+<script src="../js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="../js/jquery.word-break-keep-all.min.js" type="text/javascript" ></script>
+<link rel="stylesheet" type="text/css" href="../css/flexslider.css">
+<script>
+    $(document).ready(function() {
+
+        // Dock the footer to the bottom of the page, but scroll up to reveal more
+        // content if the page is scrolled far enough.
+
+        $('.footer').scrollToFixed( {
+            bottom: 0,
+            limit: $('.footer').offset().top
+        });
+        $('#summary').scrollToFixed({
+        marginTop: 200,
+        zIndex: 999,
+        preFixed: function() { $(this).find('.title').css('color', 'blue'); },
+        preAbsolute: function() { $(this).find('.title').css('color', 'red'); },
+        postFixed: function() { $(this).find('.title').css('color', ''); },
+        postAbsolute: function() { $(this).find('.title').css('color', ''); }
+    	});
+    });
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.about').wordBreakKeepAll();
+	$('.about').wordBreakKeepAll({useCSSonIE: false});
+});
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    // Primary Controls
+	controlNav: false             //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+  });
+});
+</script>
+</HEAD>
+<body>	
+<div class="wrapper">
+		<article>
+			<img src="img/TAANSAN_poster5.jpg" alt="제3회 비디오릴레이 탄산 포스터" class="poster" />
+			<img src="img/TAANSAN_poster5.jpg" alt="제3회 비디오릴레이 탄산 포스터" class="poster-mobile" />
+			<ul>
+				<li class="date">2014. 8. 22. 20:00</li>
+				<li class="date"><div id="circle" class="feelux"></div>스페이스 필룩스<br>space FEELUX</li>
+				<li class="video"><iframe src="https://player.vimeo.com/video/103138119" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
+				<li class="artist-name">함정식 Ham Jeong-sik</li>
+					<ul class="statement">
+						<li>함정식은 누구나 한번쯤은 들어봤을 법한 K-pop이나 찬송가 등의 비공식 뮤직비디오를 제작해 왔다. 비디오와 음악의 결합이라는 기본틀만 남긴채로 형식의 확장, 의미의 재맥락화를 시도한다. 2014년 기독교를 소재로 영화 &#60;기도&#62;를 선보인 바 있다.</li>
+					</ul>
+					<ul class="website">
+						<li><a href="http://hamjeongsik.com" alt="함정식 웹사이트" target="blank">website -&#62;</a></li>
+					</ul>
+					<ul class="synopsis">
+						<li class="caption">상영 목록</li>
+					</ul>
+					<ul class="synopsis">
+						<li class="caption">&#60;삽 Shovel&#62;, 4'38'', 2009</li>
+						<li>오브제 연구.</li>
+					</ul>
+					<ul class="synopsis">	
+						<li class="caption">&#60;Ring&#62;, 3'39'', 2010</li>
+						<li>한 여자가 자전거를 타고 낙후된 골목을 지나간다.</li>
+					</ul>
+					<ul class="synopsis">	
+						<li class="caption">&#60;앉아서, 서서, 누워서, 걸으며 Sit, Stand, Lie, Walk&#62;, 4'28'', 2011</li>
+						<li>같은 대사(시나리오)를 가지고 4개의 상황으로 만들었다. 그 상황은 '앉아서, 서서, 누워서, 걸으며'이다.</li>
+					</ul>	
+					<ul class="synopsis">	
+						<li class="caption">&#60;I’m the Best&#62;, 3'45'', 2011</li>
+						<li>자동차 안에서의 현란한 불빛과 K-pop 음악이 어우러지는 한편의 뮤직비디오.</li>
+					</ul>	
+					<ul class="synopsis">
+						<li class="caption">&#60;내게 강 같은 평화 I've Got Peace Like a River&#62;, 3'13'', 2012</li>
+						<li>십자가와 뻔뻔하게 흐르는 찬송가는 그것들이 쌓아온 의미의 겹들이 있기에 긴장감을 형성한다.</li>
+					</ul>	
+					<ul class="synopsis last">	
+						<li class="caption">&#60;기도 The Prayer&#62;, 26'17'', 2014</li>
+						<li>한 때는 종교인이었지만, 믿음이 사라진 사람이 있다. 그런 그에게 어느 날 교회 전도를 하는 할머니가 나타난다. 할머니와의 만남 이후, 그의 마지막 기도가 시작된다. 영화는 권위를 잃어버린 듯 보이는 기독교에 대한 작가의 단상이며, 그것과 지나온 기억들을 더듬어 보려 한다. 종교가 더 이상 비가시적인 세계에 몸담을 수 없는 가시적 세계가 되었음을, 특유의 힘을 잃어버렸음을 낡은 상징과 은유를 통해 보여준다. 그렇게 영화는 한때 믿음을 가졌던 시절과의 완전한 단절을 향해 흘러간다.</li>
+					</ul>	
+			</ul>	
+			<ul class="slider-wrapper">
+						<div class="flexslider">
+						  <ul class="slides">
+						    <li>
+						      <img src="img/4/1.png" />
+						    </li>
+						    <li>
+						      <img src="img/4/2.png" />
+						    </li>
+						    <li>
+						      <img src="img/4/3.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/4/4.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/4/5.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/4/6.jpg" />
+						    </li>
+						  </ul>
+						</div>
+			</ul>
+			<ul>
+				<li id="right">
+                    <ul id="summary">
+                        <li class="contents"><a href="3rd_index.html" alt="home">Summary</a></li>
+                        <li class="contents"><a href="dayone.html" alt="2014년8월8일">2014. 8. 8</a></li>
+                        <li class="contents"><a href="daytwo.html" alt="2014년8월14일">2014. 8. 14</a></li>
+                        <li class="contents"><a href="daythree.html" alt="2014년8월15일">2014. 8. 15</a></li>
+                        <li class="contents"><a href="dayfour.html" alt="2014년8월22일">2014. 8. 22</a></li>
+                        <li class="contents"><a href="dayfive.html" alt="2014년8월29일">2014. 8. 29</a></li>             
+                    </ul>
+            	</li>
+            </ul>
+			<ul>
+				<li id="right-mobile">
+                    <ul id="summary-mobile">
+                        <li class="contents"><a href="3rd_index.html" alt="home">Summary</a></li>
+                        <li class="contents"><a href="dayone.html" alt="2014년8월8일">2014. 8. 8</a></li>
+                        <li class="contents"><a href="daytwo.html" alt="2014년8월14일">2014. 8. 14</a></li>
+                        <li class="contents"><a href="daythree.html" alt="2014년8월15일">2014. 8. 15</a></li>
+                        <li class="contents"><a href="dayfour.html" alt="2014년8월22일">2014. 8. 22</a></li>
+                        <li class="contents"><a href="dayfive.html" alt="2014년8월29일">2014. 8. 29</a></li>                
+                    </ul>
+            	</li>
+            </ul>
+			<ul>
+				<li class="footer">
+            		<img src="img/logos/logo_bk.png" alt="비디오릴레이 탄산 로고" style="width:120px; margin:0;" class="logo" />
+        		</li>
+		        <li class="footer-content">
+		            <div class="about">
+						<p>about</p>
+		                <p>비디오 작업을 가진 젊은 작가들에겐 한가지 공통점이 있다. 파일은 가벼운데 어디서 상영할 곳이 마땅치 않다는 것이다. 영화제처럼 다양한 기회를 준다면 얼마나 좋을까? 공모전을 들여다보면 영상 작업을 5분 이내로 요약하라는 설명이 쓰여있고, 전시를 한다해도 제대로 된 장비 한번 만나기도 어렵다. 몇몇 미디어아트 행사와 하이브리드한 작가가 있지만, 영상 작업의 배급과 유통은 일정 부분 작가에게 넘어와 있는지도 모른다.</p>
+
+						<p>&#60;비디오 릴레이 탄산 VIDEO RELAY TAANSAN&#62;은 이러한 현실인식에서 2012년 8월 시작한 비디오 페스티벌이다. 제목이 명시하듯 이 행사는 일회성 스크리닝이 아니다. 작가가 작가를, 비디오가 비디오를 물고 이어진다. 매년 장소를 바꿔가며 열리고 있으며 올해로 3회째를 맞이한다.</p>
+
+						<p>Video Relay Taansan is a video screening program established by young artists in 2012. It is devised as a channel to promote exchange and mutual support among young artists themselves. For each Video Relay Taansan those artists who participated previously select the participants for the following years and introduce their works.</p> 
+
+						<p>“There is a common denominator among those young artists who make video works: their files are light-weighted, but there are not many places where they can be shown. How great would it be if there are as many and as diverse channels to show our video works as in the case of films, which are shown in many domestic film festivals? Many different competitions require the submission of the five or less minute version of one’s work. When fortunately selected for a group show, one needs to compromise his or her work in terms of light or sound so that his or her work does not disturb other works exhibited nearby. After all, it may not be untrue that the distribution and circulation of video works are to some extent the responsibilities of young artists themselves.”</p>
+		            </div>
+		            <div class="archive-nav">
+						<p>Archive</p>
+						<ul id="archive">
+	                        <li class="contents"><a href="../index.html" alt="5th video relay taansan">5th - 2016</a></li>
+	                        <li class="contents"><a href="../4th/4th_index.html" alt="4th video relay taansan">4th - 2015</a></li>
+	                        <li class="contents"><a href="3rd_index.html" alt="3rd video relay taansan">3rd - 2014</a></li>
+	                        <li class="contents"><a href="../2nd/2nd_index.html" alt="2nd video relay taansan">2nd - 2013</a></li>
+	                        <li class="contents"><a href="../1st/1st_index.html" alt="1st video relay taansan">1st - 2012</a></li>
+	                    </ul>
+	                    <ul id="archive-mobile">
+	                        <li class="contents"><a href="../index.html" alt="5th video relay taansan">5th - 2016</a></li>
+	                        <li class="contents"><a href="../4th/4th_index.html" alt="4th video relay taansan">4th - 2015</a></li>
+	                        <li class="contents"><a href="3rd_index.html" alt="3rd video relay taansan">3rd - 2014</a></li>
+	                        <li class="contents"><a href="../2nd/2nd_index.html" alt="2nd video relay taansan">2nd - 2013</a></li>
+	                        <li class="contents"><a href="../1st/1st_index.html" alt="1st video relay taansan">1st - 2012</a></li>
+	                    </ul>
+		            </div>
+		        </li>
+        	</ul>
+		</article>
+</div>
+
+</body>

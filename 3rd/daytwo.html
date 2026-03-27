@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<HEAD>
+<meta charset="utf-8">
+<title>Day Two - 3rd Video Relay Taansan</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="../js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
+<script src="../js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="../js/jquery.word-break-keep-all.min.js" type="text/javascript" ></script>
+<link rel="stylesheet" type="text/css" href="../css/flexslider.css">
+<script>
+    $(document).ready(function() {
+
+        // Dock the footer to the bottom of the page, but scroll up to reveal more
+        // content if the page is scrolled far enough.
+
+        $('.footer').scrollToFixed( {
+            bottom: 0,
+            limit: $('.footer').offset().top
+        });
+        $('#summary').scrollToFixed({
+        marginTop: 200,
+        zIndex: 999,
+        preFixed: function() { $(this).find('.title').css('color', 'blue'); },
+        preAbsolute: function() { $(this).find('.title').css('color', 'red'); },
+        postFixed: function() { $(this).find('.title').css('color', ''); },
+        postAbsolute: function() { $(this).find('.title').css('color', ''); }
+    	});
+    });
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.about').wordBreakKeepAll();
+	$('.about').wordBreakKeepAll({useCSSonIE: false});
+});
+// Can also be used with $(document).ready()
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    // Primary Controls
+	controlNav: false             //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+  });
+});
+</script>
+</HEAD>
+<body>	
+<div class="wrapper">
+		<article>
+			<img src="img/equal_black_hole_screening.jpg" alt="제3회 비디오릴레이 탄산 동등한 블랙홀 상영회 포스터" class="poster" />
+			<img src="img/equal_black_hole_screening.jpg" alt="제3회 비디오릴레이 탄산 동등한 블랙홀 상영회 포스터" class="poster-mobile" />
+			<ul>
+				<li class="date">2014. 8. 14. 13:00 ~ 19:00</li>
+				<li class="date"><div id="circle" class="mmca"></div>국립현대미술관 서울관 멀티프로젝트홀<br>MMCA Seoul Multi-Project Hall</li>
+					<li class="video"><iframe src="https://player.vimeo.com/video/102828844" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></li>
+
+					<ul class="statement">《동등한 블랙홀 스크리닝 equal black hole screening》<br><br>&#60;동등한 블랙홀 상영회&#62;는 비디오 릴레이 탄산이 2014년에 일회적으로 선보이는 프로그램이다. 프로그램에 참여하는 3명의 작가—김이박, 이지영, 권세정은 작업의 진행과정 중 만난 레퍼런스, 혼란 속에서 나온 엉뚱한 계획, 숨겨두었던 폐기물, 최종 결과물 등을 동등하게 펼쳐놓고, 관객 앞에서 이를 재조합하는 상영을 시도한다. 이는 동료를 맞이하듯 관객을 대하려는 비디오 릴레이 탄산의 태도를 강화하려는 시도이다. 호기심을 품고, 트래쉬 무비를 감상하러 오는 심정으로 만나길 기대한다. <br>* &#60;동등한 블랙홀 상영회&#62;는 제3회 탄산의 일부이며, 국립현대미술관의 다원예술프로젝트 II &#60;안녕! 헬로!.&#62;의 일환으로 기획했다.<br><br>&#60;equal black hole screening&#62; is a new event introduced by Video Relay Taansan in 2014. Kim Lee Park, Jiyoung Lee, and Sea Jung Kwon, the three participants in this program plans to lay out equally the references used during the processes of their art-makings, those bold plans that came out of chaos, waste articles that they had hidden away, and their final outcomes and then to reassemble them in front of the audience. This is to reinforce the attitude of Video Relay Taansan to approach to the audience in the way they treat their colleagues. They are hoping that people would come to see their works with the same amount of curiosity as they would to the screenings of trash films <br>* &#60;equal black hole screening&#62; is a part of the 3rd Video Relay Taansan and part of &#60;MULTI-ARTS PROJECT Ⅱ - Annyeong! Hello!&#62; of MMCA Seoul</ul>
+					<li class="date">13:00</li>
+					<li class="artist-name">김이박 Kim Lee Park</li>
+					<ul class="statement">
+						<li>집 앞에 마련한 작은 정원을 헌신적으로 돌보던 김이박은 주민들의 엉뚱한 행동에 끊임없는 좌절을 겪어 왔다. 이에 (플로리스트이자 미술가인) 그는 서울 속 도시인의 생활과 그의 작은 정원을 병치시켜 생각하기 시작한다.<br><br>Kim Lee Park has often felt frustrated by neighbors’ unexpected behaviors as he tended the tiny garden in front of his house with devotion. This made Kim who is a florist and artist to start to think about in juxtaposition the life of the urbanites in Seoul and his small garden.</li>
+					</ul>	
+					<li class="date">15:00</li>
+					<li class="artist-name">이지영 Jiyoung Lee</li>
+					<ul class="statement">
+						<li>이지영은 비정하고 부조리한 현실 속 적극적인 뒤섞임과 다양한 고립의 양상들, 기이한 행동들에 가담한다. 이를 통해 그녀는 인간의 조건, 삶의 세부에 관한 고민을 연결해 간다.<br><br>Jiyoung Lee looks into what conditions humans and the details of life by actively involving herself in the cruelties and absurdities of reality, by reenacting various reclusive, self-confined lifestyles, and by taking part in bizarre eccentricities. </li>
+					<li class="date">17:00</li>
+					<li class="artist-name">권세정 Sea Jung Kwon</li>
+					</ul>
+					<ul class="statement last">
+						<li>권세정은 서로 다른 것들이 어떻게 상호 주체적인 관계를 형성할 수 있는지에 대한 관심이 있다. 도시 공간 속 공동체 내의 균열을 시각화하고, 이를 통해 매끄럽지 않은 공간 또는 불편한 관계를 형성하기 위한 작품을 제작한다.<br><br>Sea Jung Kwon is interested in how different things are be able to have mutually independent relationships with one another. Kwon reveals the conflicts within the communities in cities and makes works that can contribute to the construction of spaces lacking smoothness and to the formation of uncomfortable relationships.</li>
+					</ul>
+					<ul class="synopsis last">	
+					</ul>	
+			</ul>
+			<ul class="slider-wrapper">
+					<div class="flexslider">
+					  	<ul class="slides">
+						    <li>
+						      <img src="img/2/1.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/2.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/3.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/4.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/5.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/6.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/7.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/8.jpg" />
+						    </li>
+						    <li>
+						      <img src="img/2/9.jpg" />
+						    </li>
+						</ul>
+					</div>
+			</ul>	
+			<ul>
+				<li id="right">
+                    <ul id="summary">
+                        <li class="contents"><a href="3rd_index.html" alt="home">Summary</a></li>
+                        <li class="contents"><a href="dayone.html" alt="2014년8월8일">2014. 8. 8</a></li>
+                        <li class="contents"><a href="daytwo.html" alt="2014년8월14일">2014. 8. 14</a></li>
+                        <li class="contents"><a href="daythree.html" alt="2014년8월15일">2014. 8. 15</a></li>
+                        <li class="contents"><a href="dayfour.html" alt="2014년8월22일">2014. 8. 22</a></li>
+                        <li class="contents"><a href="dayfive.html" alt="2014년8월29일">2014. 8. 29</a></li>             
+                    </ul>
+            	</li>
+            </ul>
+			<ul>
+				<li id="right-mobile">
+                    <ul id="summary-mobile">
+                        <li class="contents"><a href="3rd_index.html" alt="home">Summary</a></li>
+                        <li class="contents"><a href="dayone.html" alt="2014년8월8일">2014. 8. 8</a></li>
+                        <li class="contents"><a href="daytwo.html" alt="2014년8월14일">2014. 8. 14</a></li>
+                        <li class="contents"><a href="daythree.html" alt="2014년8월15일">2014. 8. 15</a></li>
+                        <li class="contents"><a href="dayfour.html" alt="2014년8월22일">2014. 8. 22</a></li>
+                        <li class="contents"><a href="dayfive.html" alt="2014년8월29일">2014. 8. 29</a></li>                
+                    </ul>
+            	</li>
+            </ul>
+			<ul>
+				<li class="footer">
+            		<img src="img/logos/logo_bk.png" alt="비디오릴레이 탄산 로고" style="width:120px; margin:0;" class="logo" />
+        		</li>
+		        <li class="footer-content">
+		            <div class="about">
+						<p>about</p>
+		                <p>비디오 작업을 가진 젊은 작가들에겐 한가지 공통점이 있다. 파일은 가벼운데 어디서 상영할 곳이 마땅치 않다는 것이다. 영화제처럼 다양한 기회를 준다면 얼마나 좋을까? 공모전을 들여다보면 영상 작업을 5분 이내로 요약하라는 설명이 쓰여있고, 전시를 한다해도 제대로 된 장비 한번 만나기도 어렵다. 몇몇 미디어아트 행사와 하이브리드한 작가가 있지만, 영상 작업의 배급과 유통은 일정 부분 작가에게 넘어와 있는지도 모른다.</p>
+
+						<p>&#60;비디오 릴레이 탄산 VIDEO RELAY TAANSAN&#62;은 이러한 현실인식에서 2012년 8월 시작한 비디오 페스티벌이다. 제목이 명시하듯 이 행사는 일회성 스크리닝이 아니다. 작가가 작가를, 비디오가 비디오를 물고 이어진다. 매년 장소를 바꿔가며 열리고 있으며 올해로 3회째를 맞이한다.</p>
+
+						<p>Video Relay Taansan is a video screening program established by young artists in 2012. It is devised as a channel to promote exchange and mutual support among young artists themselves. For each Video Relay Taansan those artists who participated previously select the participants for the following years and introduce their works.</p> 
+
+						<p>“There is a common denominator among those young artists who make video works: their files are light-weighted, but there are not many places where they can be shown. How great would it be if there are as many and as diverse channels to show our video works as in the case of films, which are shown in many domestic film festivals? Many different competitions require the submission of the five or less minute version of one’s work. When fortunately selected for a group show, one needs to compromise his or her work in terms of light or sound so that his or her work does not disturb other works exhibited nearby. After all, it may not be untrue that the distribution and circulation of video works are to some extent the responsibilities of young artists themselves.”</p>
+		            </div>
+		            <div class="archive-nav">
+						<p>Archive</p>
+						<ul id="archive">
+	                        <li class="contents"><a href="../index.html" alt="5th video relay taansan">5th - 2016</a></li>
+	                        <li class="contents"><a href="../4th/4th_index.html" alt="4th video relay taansan">4th - 2015</a></li>
+	                        <li class="contents"><a href="3rd_index.html" alt="3rd video relay taansan">3rd - 2014</a></li>
+	                        <li class="contents"><a href="../2nd/2nd_index.html" alt="2nd video relay taansan">2nd - 2013</a></li>
+	                        <li class="contents"><a href="../1st/1st_index.html" alt="1st video relay taansan">1st - 2012</a></li>
+	                    </ul>
+	                    <ul id="archive-mobile">
+	                        <li class="contents"><a href="../index.html" alt="5th video relay taansan">5th - 2016</a></li>
+	                        <li class="contents"><a href="../4th/4th_index.html" alt="4th video relay taansan">4th - 2015</a></li>
+	                        <li class="contents"><a href="3rd_index.html" alt="3rd video relay taansan">3rd - 2014</a></li>
+	                        <li class="contents"><a href="../2nd/2nd_index.html" alt="2nd video relay taansan">2nd - 2013</a></li>
+	                        <li class="contents"><a href="../1st/1st_index.html" alt="1st video relay taansan">1st - 2012</a></li>
+	                    </ul>
+		            </div>
+		        </li>
+        	</ul>
+		</article>
+</div>
+
+</body>
