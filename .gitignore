@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+
+*.zip
+*.psd
+*.ai
+*.sketch
+*.mp4
+*.mov
+
+node_modules/
+*.sublime-workspace
+~$*.docx
+.bash_logout
+.DS_Store
